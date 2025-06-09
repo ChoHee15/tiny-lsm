@@ -139,6 +139,6 @@ SkipListIterator SkipList::get(const std::string &key, uint64_t tranc_id) {
 [ RUN      ] SkipListTest.Iterator
 ^C
 ```
-到`SkipListTest.Iterator`前的单元测试你应该都能够通过, 卡在`SkipListTest.Iterator`是因为我们很没有实现迭代器相关功能。
+到`SkipListTest.Iterator`前的单元测试你应该都能够通过, 卡在`SkipListTest.Iterator`是因为我们还没有实现迭代器相关功能。
 
 恭喜你, 你已经完成了`SkipList`的基础`CRUD`实现。接下来你可以进行[Lab1.2](./lab1.2-Iterator-query.md)了。
